@@ -74,7 +74,7 @@ this.setState({
     if (this.state.buttonClicked === "students") {
       tabChoice = (
         <List
-          placeholder="Add Stundent..." 
+          placeholder="Add Student..." 
           currList={this.state.students}
           addFunction={this.addStudent}
           title="Student Roster"
